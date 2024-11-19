@@ -4,7 +4,6 @@ class Program
 {
     static void Main(string[] args)
     {
-        //  создаём пустой список с типом данных Contact
         var phoneBook = new List<Contact>();
 
         phoneBook.Add(new Contact("Игорь", "Николаев", 79990000001, "igor@example.com"));
